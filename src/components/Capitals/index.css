@@ -1,0 +1,65 @@
+.bg-container {
+    background-image: linear-gradient(to right, rgb(255, 214, 228), rgb(136, 249, 255));
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-container {
+    background-color: #ffbabe;
+    border-radius: 15px;
+    height: 300px;
+    width: 600px;
+  }
+  
+  .heading {
+    color: #fff9f9;
+    font-family: 'roboto';
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  .dropdown-text {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .select {
+    margin-left: 30px;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    margin-right: 5px;
+  }
+  
+  .option {
+    font-size: 15px;
+  }
+  
+  .country {
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: 'roboto';
+    font-size: 25px;
+  }
+  .options-container {
+    display: flex;
+    margin: 10px;
+  }
+  .card-container {
+    background-image: linear-gradient(to right, rgba(150, 255, 229, 0), rgb(205, 253, 255));
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(214, 173, 230);
+  }
+  .paragraph {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .country {
+    text-align: center;
+    color: #2dfff1;
+    text-shadow: 2px 2px 4px #4d1818;
+  }
