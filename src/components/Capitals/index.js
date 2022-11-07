@@ -37,12 +37,12 @@ class Capitals extends Component {
     }
 
     selectedCountry = event => {
-        const resultsCapital = countryAndCapitalsList.filter(eachItem =>
-            eachItem.id === event.target.value
+        const resultsCountry = countryAndCapitalsList.filter(eachCountry =>
+            eachCountry.id === event.target.value
             )
         this.setState({
             countryId:event.target.value,
-            country:resultsCapital[0].country
+            country:resultsCountry[0].country
         })
     }
 
@@ -53,7 +53,7 @@ class Capitals extends Component {
                 <div className="card-container">
                     <h1 className="heading">Countries and Capitals</h1>
                     <div className="options-container">
-                        <select className="select" onChange={this.selectedCountry} value={countryId}>
+                        <select className="select" value={countryId} onChange={this.selectedCountry}>
                             {countryAndCapitalsList.map(eachCountry => (
                                 <option className="option" key={eachCountry.id} value={eachCountry.id}>
                                     {eachCountry.capitalDisplayText}
